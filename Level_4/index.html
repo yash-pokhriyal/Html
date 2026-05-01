@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List | Tables | Forms</title>
+</head>
+<body>
+    <!-- Ordered List -->
+    <ol type="A">
+        <li>Html</li>
+        <ol type="I">
+            <li>Level 0</li>
+            <li>Level 1</li>
+        </ol>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ol>
+
+    <!-- Unordered list -->
+     <ul>
+        <li>Mern</li>
+        <li>Devops</li>
+        <li>Blockchain</li>
+     </ul>
+
+    <!-- Table tag  -->
+     <table border="2">
+        <caption>Technology Information</caption>
+        <tr>
+            <td colspan="3">Tech I am Good at</td>
+        </tr>
+        <tr>
+            <th>
+                Language
+            </th>
+            <th>Competency</th>
+            <th>Experience</th>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>5/10</td>
+            <td>1 years</td>
+        </tr>
+        <tr>
+            <td>Java</td>
+            <td>7/10</td>
+            <td>1 years</td>
+        </tr>
+        <tr>
+            <td colspan="3">This is My data</td>
+        </tr>
+
+     </table>
+    <br>
+    <br>
+    <!-- Form Creation -->
+    
+    <!-- value :default value -->
+    <form action="/contact-me">
+        
+        <!-- text -->
+        <label for="username">Username : </label>
+        <input id="username" type="text" 
+        placeholder="Enter Text" required name="username" value="John Doe"> <br><br>
+        
+        <!-- Password -->
+        <label for="password">Password : </label>
+        <input type="password" required id="password">
+        <br><br>
+        
+        <!-- Date -->
+        <label for="date">DOB : </label>
+        <input type="date" id="date">
+        <br><br>
+        
+        <!-- File -->
+        <label for="file">File : </label>
+        <input type="file" name="" id="">
+        <br><br>
+        
+        <!-- Color -->
+        <label for="color">Color : </label>
+        <input type="color" name="" id="color">
+        <br><br>
+        
+        <!-- Range -->
+        <label for="range">Price Range : </label>
+        <input type="range" name="" id="range">
+        <br><br>
+        
+        <!-- button -->
+        <label for="btn">Poke Me : </label>
+        <input type="button" name="" id="btn" value="Click Me">
+        <br><br>
+  
+
+        <!-- Radio button -->
+        <label for="male">Male : </label>
+        <input type="radio" name="gender" id="male">        
+
+        <label for="female">Female : </label>
+        <input type="radio" name="gender" id="female">
+        
+        <label for="other">Other : </label>
+        <input type="radio" name="gender" id="other">
+        <br><br>
+
+        <!-- checkbox -->
+        <label for="mern">MERN : </label>
+        <input type="checkbox" name="tech" id="mern">        
+
+        <label for="devops">Devops : </label>
+        <input type="checkbox" name="tech" id="devops">
+        
+        <label for="aiml">AI Ml : </label>
+        <input type="checkbox" name="tech" id="aiml">
+        <br><br>
+        
+        <!-- select -->
+        <label for="country">Country : </label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="us">USA</option>
+            <option value="germany">Germany</option>
+            <option value="japan">Japan</option>
+        </select>
+        <br><br>
+
+        <!-- Text area -->
+        <label for="comment">Comment : </label> 
+        <br>
+        <textarea name="" id="comment" rows="4" cols="40">
+            Default Text Area
+        </textarea>
+        <br><br>
+
+        <input type="submit">
+
+
+
+    </form>
+
+
+    <!-- iframe tag -->
+    <iframe width="560" height="300px" src="https://www.youtube.com/embed/rklidcZ-aLU?si=UioU0YbAmDRdIFVr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <!-- security feature -->
+    <iframe src="https://www.youtube.com"  height="300" width="300"></iframe>
+
+</body>
+</html>
